@@ -108,13 +108,13 @@ Console.WriteLine(response);
 | wordle                     | Запускает игру Wordle на русском           |
 
 ### Иллюстрации
-- ![Диаграмма архитектуры Shell](diagrams/shell-architecture.png)
-- Диаграмма компонентов (components-diagram.png)
-- Блок-схема обработки команд (command-flow.png)
-- Таблица встроенных команд (builtin-commands-table.png)
-- Схема фоновых задач (background-tasks-diagram.png)
-- Блок-схема игры Wordle (wordle-flow.png)
-- HTTP-запрос процесс (http-request-diagram.png)
+ ![Диаграмма архитектуры Shell](diagrams/shell-architecture.png)
+ ![Диаграмма компонентов](diagrams/components-diagram.png)
+ ![Блок-схема обработки команд](diagrams/command-flow.png)
+ ![Таблица встроенных команд](diagrams/builtin-commands-table.png)
+ ![Схема фоновых задач](diagrams/background-tasks-diagram.png)
+ ![Блок-схема игры Wordle](diagrams/wordle-flow.png)
+ ![HTTP-запрос процесс](diagrams/http-request-diagram.png)
 
 ---
 
