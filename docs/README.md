@@ -108,7 +108,7 @@ Console.WriteLine(response);
 | wordle                     | Запускает игру Wordle на русском           |
 
 ### Иллюстрации
-- Диаграмма архитектуры Shell (shell-architecture.png)
+- ![Диаграмма архитектуры Shell](diagrams/shell-architecture.png)
 - Диаграмма компонентов (components-diagram.png)
 - Блок-схема обработки команд (command-flow.png)
 - Таблица встроенных команд (builtin-commands-table.png)
