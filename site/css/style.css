@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #C0183C;
+  color: white;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.annotation {
+  max-width: 800px;
+  margin-left: 40px; /* сдвигает блок от левого края */
+  padding: 20px 0;
+}
+
+.cover img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* центрирует */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #A41131; /* тёмнее фон при наведении */
+  transform: scale(1.05);    /* чуть-чуть увеличивается */
+}
+
+.logo {
+  margin-left: 30px; /* или padding-left: 30px; */
+}
+
+.wrapper {
+  display: flex;
+  align-items: center; /* вертикальное выравнивание */
+  gap: 20px; /* расстояние между блоками */
+}
+
+
+.plain-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .plain-link:visited {
+    color: black;
+  }
+
+  .plain-link:hover {
+    text-decoration: underline;
+  }
